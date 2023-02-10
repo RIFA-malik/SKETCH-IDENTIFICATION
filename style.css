@@ -1,0 +1,33 @@
+h1{
+    color: navy ;
+    background-color: cornsilk;
+}
+#show_sketch{
+    float: right;
+}
+@keyframes example{
+    from{ box-shadow: 3px 3px 60px darkblue;}
+    to{ box-shadow: 3px 3px 60px darkcyan;}
+}
+canvas{
+    border: 5px solid black;
+    border-radius: 20px;
+   animation-name: example;
+   animation-duration: 5s;
+   margin-top: 50px;
+   animation-iteration-count: infinite;
+}
+p{
+    padding-top: 10px;
+    font-size: 25px ;
+}
+#footer{
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    color:black;
+    font-style:italic;
+    width: 100%;
+    font-size: 25px;
+    font-weight: bolder;
+}
